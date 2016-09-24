@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE01D8911D972CB6004974A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01D8901D972CB6004974A3 /* AppDelegate.swift */; };
+		BE01D8931D972CB6004974A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE01D8921D972CB6004974A3 /* ViewController.swift */; };
+		BE01D8961D972CB6004974A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE01D8941D972CB6004974A3 /* Main.storyboard */; };
+		BE01D8991D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE01D8971D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld */; };
+		BE01D89B1D972CB6004974A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE01D89A1D972CB6004974A3 /* Assets.xcassets */; };
+		BE01D89E1D972CB6004974A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE01D89C1D972CB6004974A3 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE01D88D1D972CB6004974A3 /* Pokemon Maps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pokemon Maps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE01D8901D972CB6004974A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE01D8921D972CB6004974A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE01D8951D972CB6004974A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE01D8981D972CB6004974A3 /* Pokemon_Maps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Pokemon_Maps.xcdatamodel; sourceTree = "<group>"; };
+		BE01D89A1D972CB6004974A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE01D89D1D972CB6004974A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE01D89F1D972CB6004974A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE01D88A1D972CB6004974A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE01D8841D972CB6004974A3 = {
+			isa = PBXGroup;
+			children = (
+				BE01D88F1D972CB6004974A3 /* Pokemon Maps */,
+				BE01D88E1D972CB6004974A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE01D88E1D972CB6004974A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE01D88D1D972CB6004974A3 /* Pokemon Maps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE01D88F1D972CB6004974A3 /* Pokemon Maps */ = {
+			isa = PBXGroup;
+			children = (
+				BE01D8901D972CB6004974A3 /* AppDelegate.swift */,
+				BE01D8921D972CB6004974A3 /* ViewController.swift */,
+				BE01D8941D972CB6004974A3 /* Main.storyboard */,
+				BE01D89A1D972CB6004974A3 /* Assets.xcassets */,
+				BE01D89C1D972CB6004974A3 /* LaunchScreen.storyboard */,
+				BE01D89F1D972CB6004974A3 /* Info.plist */,
+				BE01D8971D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld */,
+			);
+			path = "Pokemon Maps";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE01D88C1D972CB6004974A3 /* Pokemon Maps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE01D8A21D972CB6004974A3 /* Build configuration list for PBXNativeTarget "Pokemon Maps" */;
+			buildPhases = (
+				BE01D8891D972CB6004974A3 /* Sources */,
+				BE01D88A1D972CB6004974A3 /* Frameworks */,
+				BE01D88B1D972CB6004974A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pokemon Maps";
+			productName = "Pokemon Maps";
+			productReference = BE01D88D1D972CB6004974A3 /* Pokemon Maps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE01D8851D972CB6004974A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Lichtverbunden;
+				TargetAttributes = {
+					BE01D88C1D972CB6004974A3 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BE01D8881D972CB6004974A3 /* Build configuration list for PBXProject "Pokemon Maps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE01D8841D972CB6004974A3;
+			productRefGroup = BE01D88E1D972CB6004974A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE01D88C1D972CB6004974A3 /* Pokemon Maps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE01D88B1D972CB6004974A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE01D89E1D972CB6004974A3 /* LaunchScreen.storyboard in Resources */,
+				BE01D89B1D972CB6004974A3 /* Assets.xcassets in Resources */,
+				BE01D8961D972CB6004974A3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE01D8891D972CB6004974A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE01D8931D972CB6004974A3 /* ViewController.swift in Sources */,
+				BE01D8991D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld in Sources */,
+				BE01D8911D972CB6004974A3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE01D8941D972CB6004974A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE01D8951D972CB6004974A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE01D89C1D972CB6004974A3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE01D89D1D972CB6004974A3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE01D8A01D972CB6004974A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE01D8A11D972CB6004974A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE01D8A31D972CB6004974A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokemon Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lu.lichtverbunden.Pokemon-Maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BE01D8A41D972CB6004974A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Pokemon Maps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lu.lichtverbunden.Pokemon-Maps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE01D8881D972CB6004974A3 /* Build configuration list for PBXProject "Pokemon Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE01D8A01D972CB6004974A3 /* Debug */,
+				BE01D8A11D972CB6004974A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE01D8A21D972CB6004974A3 /* Build configuration list for PBXNativeTarget "Pokemon Maps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE01D8A31D972CB6004974A3 /* Debug */,
+				BE01D8A41D972CB6004974A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BE01D8971D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BE01D8981D972CB6004974A3 /* Pokemon_Maps.xcdatamodel */,
+			);
+			currentVersion = BE01D8981D972CB6004974A3 /* Pokemon_Maps.xcdatamodel */;
+			path = Pokemon_Maps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BE01D8851D972CB6004974A3 /* Project object */;
+}
