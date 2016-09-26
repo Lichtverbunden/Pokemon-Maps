@@ -13,6 +13,10 @@
 		BE01D8991D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BE01D8971D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld */; };
 		BE01D89B1D972CB6004974A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE01D89A1D972CB6004974A3 /* Assets.xcassets */; };
 		BE01D89E1D972CB6004974A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE01D89C1D972CB6004974A3 /* LaunchScreen.storyboard */; };
+		BE01D8A71D972F41004974A3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE01D8A61D972F41004974A3 /* MapKit.framework */; };
+		BEC270D51D98A16B0044C38F /* PokeAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC270D41D98A16B0044C38F /* PokeAnnotation.swift */; };
+		BEE450F01D983E9B00960FF7 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE450EF1D983E9B00960FF7 /* PokedexViewController.swift */; };
+		BEE450F21D98409F00960FF7 /* CoreDataHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE450F11D98409F00960FF7 /* CoreDataHelp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		BE01D89A1D972CB6004974A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE01D89D1D972CB6004974A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BE01D89F1D972CB6004974A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE01D8A61D972F41004974A3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BEC270D41D98A16B0044C38F /* PokeAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeAnnotation.swift; sourceTree = "<group>"; };
+		BEE450EF1D983E9B00960FF7 /* PokedexViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		BEE450F11D98409F00960FF7 /* CoreDataHelp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE01D8A71D972F41004974A3 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,7 @@
 			children = (
 				BE01D88F1D972CB6004974A3 /* Pokemon Maps */,
 				BE01D88E1D972CB6004974A3 /* Products */,
+				BE01D8A51D972F41004974A3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +68,9 @@
 			children = (
 				BE01D8901D972CB6004974A3 /* AppDelegate.swift */,
 				BE01D8921D972CB6004974A3 /* ViewController.swift */,
+				BEE450EF1D983E9B00960FF7 /* PokedexViewController.swift */,
+				BEE450F11D98409F00960FF7 /* CoreDataHelp.swift */,
+				BEC270D41D98A16B0044C38F /* PokeAnnotation.swift */,
 				BE01D8941D972CB6004974A3 /* Main.storyboard */,
 				BE01D89A1D972CB6004974A3 /* Assets.xcassets */,
 				BE01D89C1D972CB6004974A3 /* LaunchScreen.storyboard */,
@@ -65,6 +78,14 @@
 				BE01D8971D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld */,
 			);
 			path = "Pokemon Maps";
+			sourceTree = "<group>";
+		};
+		BE01D8A51D972F41004974A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BE01D8A61D972F41004974A3 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE01D8931D972CB6004974A3 /* ViewController.swift in Sources */,
+				BEC270D51D98A16B0044C38F /* PokeAnnotation.swift in Sources */,
+				BEE450F01D983E9B00960FF7 /* PokedexViewController.swift in Sources */,
 				BE01D8991D972CB6004974A3 /* Pokemon_Maps.xcdatamodeld in Sources */,
+				BEE450F21D98409F00960FF7 /* CoreDataHelp.swift in Sources */,
 				BE01D8911D972CB6004974A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,6 +327,7 @@
 				BE01D8A41D972CB6004974A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
